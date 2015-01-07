@@ -1,0 +1,5 @@
+Vim Tutotials:
+http://derekwyatt.org/vim/tutorials/novice/
+
+Git-Tutorial:
+https://www.atlassian.com/de/git/tutorial/git-branches#!branch
