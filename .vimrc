@@ -17,6 +17,7 @@ Plugin 'Buffergator'
 
 Plugin 'surround.vim'
 Plugin 'EasyGrep'
+Plugin 'scrooloose/syntastic'
 
 syntax enable
 set background=light
