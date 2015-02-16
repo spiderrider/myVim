@@ -38,10 +38,10 @@ set hidden    " allow buffer switching without saving
 set nu " Set linenumbers
 " set relativenumber
 
-:set number
-:set mouse=a
-:set clipboard=unnamedplus
-:set hlsearch
+set number
+set mouse=a
+set clipboard=unnamedplus
+set hlsearch "Suchergebnisse markieren
 
 " set the search scan so that it ignores case when the search is all lower
 " case but recognizes uppercase if it's specified
@@ -72,6 +72,15 @@ let g:solarized_hitrail=1
 let g:solarized_underline=0
 set t_Co=256
 " }}}
+
+"-----------------------------------------------------------------------------
+"Tipps von  T. Birnthaler, OSTC GmbH; http://www.ostc.de/vi.pdf
+
+set noerrorbells "Bei Fehleingaben nicht piepsen
+set report=0 "Anzahl geänderter Zeilen in Statuszeile immer anzeigen
+set showmode "Edit-Modus rechts unten anzeigen
+set wrapscan "Suche über Dateianfang/ende hinaus fortsetzen
+syntax on "Syntaxcoloring einschalten (abhängig von Extension)
 
 "-----------------------------------------------------------------------------
 " NERD Tree Plugin Settings
