@@ -59,10 +59,10 @@ set ch=2 " Make command line two lines high
 
 " solarized {{{
 set background=dark " or light
-hi IndentGuidesOdd ctermbg=black
-hi IndentGuidesEven ctermbg=darkgrey
-"hi IndentGuidesOdd ctermbg=white
-"hi IndentGuidesEven ctermbg=lightgrey
+"hi IndentGuidesOdd ctermbg=black
+"hi IndentGuidesEven ctermbg=darkgrey
+hi IndentGuidesOdd ctermbg=white
+hi IndentGuidesEven ctermbg=lightgrey
 "color xoria256
 colorscheme solarized " load a colorscheme
 let g:solarized_termtrans=0
