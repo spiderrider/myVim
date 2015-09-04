@@ -42,6 +42,10 @@ set number
 set mouse=a
 set clipboard=unnamedplus
 set hlsearch "Suchergebnisse markieren
+set tabstop=2
+set autoindent
+set shiftwidth=4
+set expandtab
 
 " set the search scan so that it ignores case when the search is all lower
 " case but recognizes uppercase if it's specified
@@ -54,7 +58,7 @@ set laststatus=2
 set ch=2 " Make command line two lines high
 
 " solarized {{{
-set background=light " or light
+set background=dark " or light
 hi IndentGuidesOdd ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 "hi IndentGuidesOdd ctermbg=white
