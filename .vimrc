@@ -18,16 +18,14 @@ Plugin 'Buffergator'
 Plugin 'surround.vim'
 Plugin 'EasyGrep'
 Plugin 'scrooloose/syntastic'
+Plugin 'SingleCompile'
 
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
-
-" Hide the mouse pointer while typing
-set mousehide
 
 
 set mousehide " Hide the mouse pointer while typing
@@ -77,6 +75,14 @@ let g:solarized_underline=0
 set t_Co=256
 " }}}
 
+
+
+"Key mapping für SingleCompile - http://singlecompile.topbug.net/
+" :cope für Anzeige der Fehlermeldungen eingeben.
+" Pascal-File xyz.pas muss in vim geöffnet sein, Cursor muss sich im Fenster
+" befinden, sonst funktioniert das Key Mapping nicht.
+nmap <F9> :SCCompile<cr>
+nmap <F10> :SCCompileRun<cr>
 "-----------------------------------------------------------------------------
 "Tipps von  T. Birnthaler, OSTC GmbH; http://www.ostc.de/vi.pdf
 
