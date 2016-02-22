@@ -19,6 +19,7 @@ Plugin 'surround.vim'
 Plugin 'EasyGrep'
 Plugin 'scrooloose/syntastic'
 Plugin 'SingleCompile'
+Plugin 'Yggdroot/indentLine'
 
 syntax enable
 set background=dark
@@ -43,7 +44,8 @@ set hlsearch "Suchergebnisse markieren
 set tabstop=2
 set autoindent
 set shiftwidth=4
-set expandtab
+set expandtab   " tabs are spaces
+set cursorline  " highlight current line
 
 " set the search scan so that it ignores case when the search is all lower
 " case but recognizes uppercase if it's specified
