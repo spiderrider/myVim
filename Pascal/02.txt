@@ -1,0 +1,37 @@
+2-1 
+ja
+
+2-2
+a) Integer
+b) real
+c) geht nicht
+
+2-3
+Man müsste 55,55 zunächst auf 56 runden und dann mit 56 mod 7 den Rest ermitteln.
+
+2-4
+ja 
+-77
+99
+
+2-5
+2 Stufen
++ und -
+
+2-6
+5
+5.0E-0
+
+2-7
+nein
+?
+
+2-8
+
+
+2-10
+positiv
+
+2-11
+
+

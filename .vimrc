@@ -42,7 +42,7 @@ set mouse=a
 set clipboard=unnamedplus
 set hlsearch "Suchergebnisse markieren
 set tabstop=2
-set autoindent
+set autoindent   " indent at the same level of the previous line
 set shiftwidth=4
 set expandtab   " tabs are spaces
 set cursorline  " highlight current line
