@@ -20,10 +20,12 @@ Plugin 'EasyGrep'
 Plugin 'scrooloose/syntastic'
 Plugin 'SingleCompile'
 Plugin 'Yggdroot/indentLine'
+Plugin 'lifepillar/vim-solarized8'
 
 syntax enable
 set background=dark
-colorscheme solarized
+" colorscheme solarized
+colorscheme solarized8
 
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
@@ -64,7 +66,8 @@ set background=dark " or light
 hi IndentGuidesOdd ctermbg=white
 hi IndentGuidesEven ctermbg=lightgrey
 "color xoria256
-colorscheme solarized " load a colorscheme
+set t_Co=256
+colorscheme solarized8 " load a colorscheme
 let g:solarized_termtrans=0
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
@@ -74,7 +77,6 @@ let g:solarized_bold=1
 let g:solarized_diffmode="high"
 let g:solarized_hitrail=1
 let g:solarized_underline=0
-set t_Co=256
 " }}}
 
 
