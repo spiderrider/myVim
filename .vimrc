@@ -1,12 +1,14 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
 
 " This is the Vundle package, which can be found on GitHub.
 " For GitHub repos, you specify plugins using the
 " 'user/repository' format
-Plugin 'gmarik/vundle'XXXXXXXXX
+"Plugin 'gmarik/vundle'
 
 " We could also add repositories with a ".git" extension
 Plugin 'scrooloose/nerdtree.git'
@@ -21,6 +23,9 @@ Plugin 'scrooloose/syntastic'
 Plugin 'SingleCompile'
 Plugin 'Yggdroot/indentLine'
 Plugin 'lifepillar/vim-solarized8'
+
+call vundle#end()
+filetype plugin indent on
 
 syntax enable
 set background=dark
