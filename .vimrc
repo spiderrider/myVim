@@ -4,6 +4,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
+"Ich habe vim unter root/ installiert, ansonsten gab es mit Vundle Fehlermeldungen
+"How to locate the vimrc file used by vim editor?
+":echo $MYVIMRC
 
 " This is the Vundle package, which can be found on GitHub.
 " For GitHub repos, you specify plugins using the
